@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(33, 33, 10);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header h1{
+    color: #ffffff;
+    font-size: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.botoes{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.botoes button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
